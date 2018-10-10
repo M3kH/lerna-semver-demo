@@ -1,0 +1,23 @@
+{
+  "name": "lerna-semver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cz-lerna-changelog": "^2.0.0",
+    "lerna": "^3.4.3",
+    "semantic-release": "^15.6.3",
+    "semantic-release-monorepo": "^6.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  }
+}
